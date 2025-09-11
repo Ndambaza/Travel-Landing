@@ -170,7 +170,7 @@ main img {
 
 .destination h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 40;
+  font-size: 45;
   margin-bottom: 20px;
 }
 .destination p {
@@ -215,7 +215,8 @@ main img {
 }
 .card-content h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 32px;
+  font-weight: normal;
+  font-size: 28px;
   margin-bottom: 20px;
   color: #222;
 }
@@ -231,7 +232,6 @@ main img {
 /* Destination Highlights list */
 .card-content ul {
   font-family: "Roboto", sans-serif;
-  list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
@@ -254,4 +254,68 @@ main img {
   margin-right: 10px;
   background: #ef4444;
   border-radius: 50%;
+}
+/* Bucket List Section */
+
+.bucket-list {
+  background: linear-gradient(to bottom right, #111827, #7f1d1d);
+  color: white;
+}
+
+.bucket-list h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 45;
+  margin-bottom: 20px;
+}
+.bucket-list p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.bucket-list-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  transition: background 0.3s ease;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  background: #dc2626;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+}
+
+.icon i {
+  font-size: 28px;
+  color: white;
+}
+.bucket-list-card h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.bucket-list-card p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+footer {
+  background-image: url(/images/osaka.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
