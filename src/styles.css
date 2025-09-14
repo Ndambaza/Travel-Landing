@@ -2,6 +2,9 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 .text-center {
   text-align: center;
 }
@@ -321,7 +324,7 @@ main img {
 }
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/images/osaka.jpg);
+    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/530/original/jpnnight.jpg?1757523768);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
